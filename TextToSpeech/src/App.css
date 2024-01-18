@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  position: absolute;
+ text-align: center;
+ /* background-color: aliceblue; */
+ top: 35px;
+ right: 12%;
+ width: 75%;
+}
+.container h2{
+  padding: 25px;
+}
+.container p{
+  padding: 25px;
+}
+.btn-text{
+  border: 2px solid black;
+  height: 250px;
+}
+.btn-text button{
+  padding: 8px;
+  margin: 10px 10px;
+  margin-bottom: 25px;
+  background-color: rgb(19, 164, 19);
+  color: white;
+  outline: none;
+  margin-top: 200px;
+  border-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.btn-text button:hover{
+  background-color: rgb(22, 100, 22);
+}

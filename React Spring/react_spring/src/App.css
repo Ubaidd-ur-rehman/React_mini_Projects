@@ -1,0 +1,19 @@
+.Components{
+  padding: 1.5rem;
+  background-color: steelblue;
+  margin: 5%;
+}
+.counter{
+  margin-top: -6%;
+  margin-left: 45%;
+  width: 80px;
+  height:80px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+}
